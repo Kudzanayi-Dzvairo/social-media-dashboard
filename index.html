@@ -13,18 +13,41 @@
   <title>Frontend Mentor | [Challenge Name Here]</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+
 </head>
 <body>
-    <header>
-      <div>
-        <h1>Social Media Dashboard</h1>
-        <p>Total Followers: 23,004</p>
-      </div>
-        <p>Dark Mode</p>
-        <div class="toggle-btn">
-          <div class="inner-circle"></div>
+  <div class="background-box"></div>
+    <div class="container">
+      <header class="header">
+        <div class="header_left">
+          <h1 class="header-title">Social Media Dashboard</h1>
+          <span class="header-subtext">Total Followers: 23,004</span>
         </div>
-    </header>
+        <div class="header_right toggle">
+          <label for="dark_mode" class="toggle_label"> Dark Mode</label>
+          <div class="toggle_buton_wrapper">
+            <input type="checkbox" name="dark_mode" class="toggle_checkbox"> 
+            <span class="toggle_button"></span>
+        </div>
+        </div>
+      </header>
+      
+      <section class="top-cards">
+        <div class="card">
+          <span class="social-media-tag">  @nathanf</span>
+          <div class="followers">
+            <span class="followers_number">1987</span>
+            <span class="followers_subtext">Followers</span>
+          </div>
+          <span class="change">
+            12 Today
+          </span>
+        </div>
+      </section>
+
+
+    </div>
     
 
 </body>
